@@ -1,5 +1,6 @@
 const character = [
   {
+    id: 1,
     "nome": "Monkey D. Luffy",
     "ruolo": "Capitano",
     "frutto": "Gomu Gomu no Mi (Gear 5/Nika)",
@@ -8,6 +9,7 @@ const character = [
     "attacchi_speciali": ["Gomu Gomu no Bajrang Gun", "Gear 5 Dawn Rocket"]
   },
   {
+    id: 2,
     "nome": "Roronoa Zoro",
     "ruolo": "Spadaccino",
     "frutto": "Nessuno",
@@ -16,6 +18,7 @@ const character = [
     "attacchi_speciali": ["Santoryu: Oni Giri", "Asura: King of Hell"]
   },
   {
+    id: 3,
     "nome": "Nami",
     "ruolo": "Navigatrice",
     "frutto": "Nessuno",
@@ -24,6 +27,7 @@ const character = [
     "attacchi_speciali": ["Thunderbolt Tempo", "Black Ball: Zeus"]
   },
   {
+    id: 4,
     "nome": "Usopp",
     "ruolo": "Cecchino",
     "frutto": "Nessuno (Pop Green)",
@@ -32,6 +36,7 @@ const character = [
     "attacchi_speciali": ["Pop Green: Devil Star", "Impact Wolf"]
   },
   {
+    id: 5,
     "nome": "Vinsmoke Sanji",
     "ruolo": "Cuoco",
     "frutto": "Nessuno",
@@ -40,6 +45,7 @@ const character = [
     "attacchi_speciali": ["Diable Jambe: Hell Memories", "Ifrit Jambe"]
   },
   {
+    id: 6,
     "nome": "Tony Tony Chopper",
     "ruolo": "Medico",
     "frutto": "Hito Hito no Mi",
@@ -48,6 +54,7 @@ const character = [
     "attacchi_speciali": ["Monster Point: Kong", "Guard Point"]
   },
   {
+    id: 7,
     "nome": "Nico Robin",
     "ruolo": "Archeologa",
     "frutto": "Hana Hana no Mi",
@@ -56,6 +63,7 @@ const character = [
     "attacchi_speciali": ["Mil Fleur: Gigante", "Demonio Fleur"]
   },
   {
+    id: 8,
     "nome": "Franky",
     "ruolo": "Carpentiere",
     "frutto": "Nessuno",
@@ -64,6 +72,7 @@ const character = [
     "attacchi_speciali": ["Radical Beam", "Franky Iron Boxing"]
   },
   {
+    id: 9,
     "nome": "Brook",
     "ruolo": "Musicista",
     "frutto": "Yomi Yomi no Mi",
@@ -72,6 +81,7 @@ const character = [
     "attacchi_speciali": ["Soul Solid", "Hanauta Sancho: Yahazu Giri"]
   },
   {
+    id: 10,
     "nome": "Jinbe",
     "ruolo": "Timoniere",
     "frutto": "Nessuno",
@@ -80,4 +90,6 @@ const character = [
     "attacchi_speciali": ["Fish-Man Karate: Shark Tile Punch", "Ocean Current"]
   }
 ]
+
+
 export default character;

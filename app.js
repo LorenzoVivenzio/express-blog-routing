@@ -1,5 +1,6 @@
 import express from "express";
 import character from "./data.js";
+import postRouter from "./routers/post.js";
 
 const app = express();
 const port = 3000;
@@ -17,6 +18,8 @@ app.get("/character", (req, resp) =>{
     }
     resp.json(info)
 })
+
+app.use("/character", postRouter)
 
 app.listen(port, () => {
 
